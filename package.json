@@ -1,0 +1,43 @@
+{
+  "name": "mountain-breeze",
+  "version": "1.0.0",
+  "description": "A Wordpress theme implementing Tailwind CSS and Alpine JS, and removing jQuery once and for all.",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "dev": "npm run development",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "postinstall": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukeraymonddowning/MountainBreeze.git#mountainbreeze"
+  },
+  "keywords": [
+    "wordpress",
+    "php",
+    "tailwindcss",
+    "alpinejs",
+    "jquery",
+    "theme"
+  ],
+  "author": "Luke Raymond Downing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukeraymonddowning/MountainBreeze/issues"
+  },
+  "homepage": "https://github.com/lukeraymonddowning/MountainBreeze/tree/mountainbreeze#readme",
+  "dependencies": {
+    "alpinejs": "^2.0",
+    "tailwindcss": "^2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "cross-env": "^7.0.0",
+    "laravel-mix": "^6.0"
+  }
+}
