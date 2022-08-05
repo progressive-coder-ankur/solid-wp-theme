@@ -1,5 +1,5 @@
 {
-  "name": "mountain-breeze",
+  "name": "sawtee-theme",
   "version": "1.0.0",
   "description": "A Wordpress theme implementing Tailwind CSS and Alpine JS, and removing jQuery once and for all.",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukeraymonddowning/MountainBreeze.git#mountainbreeze"
+    "url": "git+https://github.com/progressive-coder-ankur/sawtee-wp-theme.git"
   },
   "keywords": [
     "wordpress",
@@ -24,12 +24,12 @@
     "jquery",
     "theme"
   ],
-  "author": "Luke Raymond Downing",
+  "author": "Ankur Singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukeraymonddowning/MountainBreeze/issues"
+    "url": "https://github.com/progressive-coder-ankur/sawtee-wp-theme/issues"
   },
-  "homepage": "https://github.com/lukeraymonddowning/MountainBreeze/tree/mountainbreeze#readme",
+  "homepage": "https://github.com/progressive-coder-ankur/sawtee-wp-theme#readme",
   "dependencies": {
     "alpinejs": "^2.0",
     "tailwindcss": "^2.0"
